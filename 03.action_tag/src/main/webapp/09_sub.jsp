@@ -1,0 +1,18 @@
+<!-- 0520 include -->
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<jsp:include page="09_header.jsp"/>
+	<h4>서브 화면입니다.</h4>
+	<a href="09_main.jsp">메인 페이지로 이동</a>
+	
+	<jsp:include page="09_footer.jsp"/>
+	
+</body>
+</html>
