@@ -22,7 +22,7 @@
     <nav id="main_title">
      <ul>    
        <li>
-         <a href="BookingServlet?command=index">오션힐 호텔123</a>
+         <a href="BookingServlet?command=index">오션힐 호텔</a>
        </li>
      </ul>
     </nav>
