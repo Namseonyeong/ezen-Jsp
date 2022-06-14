@@ -11,7 +11,7 @@
 <body>
 <div id="wrap">
 <h1>상품 리스트 - 관리자 페이지</h1>
-<table>
+<table>	
 	<tr>
 		<td colspan="5" style="text-align: right; border:white;">
 			<a href="productWrite.do">상품 등록</a>

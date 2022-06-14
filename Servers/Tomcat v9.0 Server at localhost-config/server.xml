@@ -158,7 +158,13 @@
     <Context docBase="10.mvc_board" path="/10.mvc_board" reloadable="true" source="org.eclipse.jst.jee.server:10.mvc_board">
     <Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxIdle="10" maxTotal="20" maxWaitMillis="-1" name="jdbc/myoracle" password="ora123" type="javax.sql.DataSource" url="jdbc:oracle:thin:@127.0.0.1:1521:XE" username="jsp_user"/>
 	</Context>
-    <Context docBase="11_hotel_booking" path="/11_hotel_booking" reloadable="true" source="org.eclipse.jst.jee.server:11_hotel_booking">
+    <Context docBase="12.mvc_movie" path="/12.mvcEX_movie" reloadable="true" source="org.eclipse.jst.jee.server:12.mvc_movie">
+        <Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxIdle="10" maxTotal="20" maxWaitMillis="-1" name="jdbc/myoracle" password="ora123" type="javax.sql.DataSource" url="jdbc:oracle:thin:@127.0.0.1:1521:XE" username="jsp_user"/>
+    </Context>
+    <Context docBase="mvc_employee_master" path="/mvc_employee" reloadable="true" source="org.eclipse.jst.jee.server:mvc_employee_master">
+    	<Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxIdle="10" maxTotal="20" maxWaitMillis="-1" name="jdbc/myoracle" password="ora123" type="javax.sql.DataSource" url="jdbc:oracle:thin:@127.0.0.1:1521:XE" username="jsp_user"/>
+    </Context>
+    <Context docBase="mvc_employee_master_sy" path="/mvc_employee" reloadable="true" source="org.eclipse.jst.jee.server:mvc_employee_master_sy">
     <Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxIdle="10" maxTotal="20" maxWaitMillis="-1" name="jdbc/myoracle" password="ora123" type="javax.sql.DataSource" url="jdbc:oracle:thin:@127.0.0.1:1521:XE" username="jsp_user"/>
     </Context>
     </Host>
